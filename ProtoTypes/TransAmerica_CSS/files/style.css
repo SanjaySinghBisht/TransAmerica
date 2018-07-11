@@ -1,0 +1,75 @@
+* {font-size:13px!important;font-family:Calibri!important;}
+body {padding-top:0px!important;}
+.no-padding,.no-padding1,.menu {padding:0;}
+.full-width {width:100%;}
+.padding-sm {padding:5px!important;}
+.center-align {text-align:center;}
+.align-left{text-align:left!important;display:block;}
+.plans label {font-weight:400;}
+.sub-tabs {border:1px solid #ddd;margin:0!important;padding:10px;}
+.header {height:26px;padding:0;}
+.btn {padding:3px 6px!important;}
+.message {font-size:12px!important;}
+.hidden {visibility:hidden;}
+.form-horizontal .control-label {padding-top:2px!important;}
+.control-label.top-spacing {padding-top:20px!important;}
+.form-bg {border-radius:5px;margin-bottom:5px;float:left;width:100%;padding:10px;}
+.form-bg1 {background:#fff;padding:20px 10px;}
+.border-row tr ,.blue-bg{margin:10px}
+.border-row tr td {border-top:1px solid #ddd !important;border-bottom:1px solid #ddd !important;}
+.border-row tr td:first-child {border-left:1px solid #ddd !important;}
+.border-row tr td:last-child {border-right:1px solid #ddd !important;}
+.panel-heading {padding:5px 15px !important;}
+.panel-primary > .panel-heading {background:linear-gradient(#f4f4f4,#deddde);color:#333!important;}
+.btn-primary{color:#333!important;border-color:#2e6da4!important;}
+.form-horizontal {max-height:322px;overflow-y:auto;overflow-x:hidden;}
+.scrollable {max-height:220px;overflow-y:auto;width:100%;}
+.border {margin:10px;padding:10px;}
+.table-bordered {border:1px solid #ddd!important;}
+.table-bordered select {width:124px;}
+.spacing {border:1px solid #ddd;padding:10px;}
+.table {margin-bottom:0;}
+.border-box {border:1px solid #999;float:left;width:100%;margin:-10px 0;padding:10px 0;}
+.nav-tabs.nav > li > a {padding:4px 15px!important;}
+.blue-row {background:#f9f9f9;}
+.panel-title {font-weight:700;}
+.form-group.required .control-label:after {content:"*";color:red;}
+.footer {background:linear-gradient(#7f0614,#c30c1e);color:#fff;margin:0;  position: fixed;  bottom: 0;  width: 100%;}
+.footer > .container {padding-right:15px;padding-left:15px;}
+.footer .text-right {margin:0!important;padding:5px 0;}
+.footer .text-right span {padding:0 10px;}
+.navbar-nav > li > a {border-right:1px solid #999;font-weight:700;}
+.navbar-nav>li>a {padding:10px 15px;}
+.shadow {box-shadow:0 3px 3px #999;}
+.bottom-spacing{padding-bottom:40px;padding-top:125px;}
+.space-ls-5{padding-right:5px !important;padding-left:5px !important;}
+.top-btn {border-radius:0 0 8px 8px;padding:10px 40px;background:linear-gradient(#7f0614,#c30c1e);color:#fff;font-size:20px;float:right;  margin-right: 5px;}
+.top-btn:hover {color:#fff;}
+#close_proposal {position:absolute;top:80px;right:20px;}
+#plans {background:#fff;padding:0;}
+#navbar .active > a {background: linear-gradient(#7f0614, #c30c1e) repeat scroll 0 0 rgba(0, 0, 0, 0) !important;color:#fff !important;}
+.form-ctr {height:26px!important;text-align:left!important;width:100%;padding:2px!important;}
+textarea {resize:vertical;}
+.rates-table table {border-spacing: 0 10px !important;border-collapse: separate !important;padding:0 10px 10px;}
+.rates-table table td {padding:2px 8px!important;}
+.rates-table{background:#fff}
+/*common styling for elements*/
+select,body,.form-bg,.btn-primary ,.border,.blue-bg,.btn-primary:hover,.spacing .spacing{background:#e9f0fa !important}
+.back-btn ,.back{float:left;}
+.next-btn,.next {float:right;}
+.next-btn,.back-btn,.chk-msg {position:relative;top:-4px;}
+.next,.back {display:inline-block;margin:5px 0;}
+.nav-tabs,.table > tbody > tr > td {border:0;}
+.plans .form-group,.form-bg1 .form-group {margin-bottom:5px!important;} 
+.navbar-toggle.collapsed,.navbar-toggle {float:left !important;margin-left:15px;}
+/*----------------------------*/
+/*media Query for same devices*/
+@media screen and (max-width:767px) 
+{
+.no-padding1{  padding-right: 15px !important;padding-left: 15px !important;margin-top:10px;}
+.border-box{margin:10px 0 ;}
+#close_proposal {position:absolute;top:70px!important;right:5px !important;width:120px;}
+.logo {width:140px;}
+.top-btn{padding:10px 10px !important ;}
+.menu {padding:0 15px;}
+}
